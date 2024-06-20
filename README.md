@@ -1,3 +1,5 @@
+NOTE: the `synonym` crate is a better implementation of this idea using a proc macro. Use that!
+
 Utility macros for newtype trait implementations.
 For a type A defined via the newtype pattern by wrapping type B
 (i.e. struct A(B)), if B satisfies some trait, we often want A to
